@@ -15,8 +15,6 @@ def reformat_languages(languages)
                     :style => [lang_type] 
          }
       end
-      
-       #binding.pry
      end
     end
     end
