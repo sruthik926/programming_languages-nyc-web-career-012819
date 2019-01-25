@@ -7,7 +7,7 @@ def reformat_languages(languages)
      #binding.pry
     lang.each do |k, v|
      v.each do |key, val|
-       if
+       if lang_type
        new_hash[k] = {key => val,
                     :style => [lang_type]
       }
