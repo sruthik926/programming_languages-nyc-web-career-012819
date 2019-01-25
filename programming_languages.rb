@@ -8,7 +8,7 @@ def reformat_languages(languages)
     lang.each do |k, v|
      v.each do |key, val|
        if k == :javascript
-         new_hash[k] = {
+         new_hash[k] = {:
       end
        new_hash[k] = {key => val,
                     :style => [lang_type]
